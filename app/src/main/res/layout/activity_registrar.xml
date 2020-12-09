@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarActivity"
+    android:background="#343B45"
+    android:paddingVertical="80dp"
+    android:orientation="vertical"
+    android:paddingHorizontal="60dp"
+    >
+
+    <EditText
+        android:id="@+id/register_txt_email"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100px"
+        android:background="#3E4750"
+        android:textColor="#8A9398"
+        android:drawableLeft="@drawable/arroba"
+        android:hint="  Correo"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#8A9398" />
+
+    <EditText
+        android:id="@+id/register_txt_numero"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:textColor="#8A9398"
+        android:layout_marginBottom="100px"
+        android:background="#3E4750"
+        android:drawableLeft="@drawable/celular"
+        android:hint="  Celular"
+        android:textColorHint="#8A9398" />
+
+    <EditText
+        android:id="@+id/register_txt_password"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:textColor="#8A9398"
+        android:layout_marginBottom="100px"
+        android:background="#3E4750"
+        android:drawableLeft="@drawable/candado"
+        android:hint="  Contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#8A9398" />
+
+    <EditText
+        android:id="@+id/register_txt_nombre"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:textColor="#8A9398"
+        android:background="#3E4750"
+        android:drawableLeft="@drawable/user"
+        android:textColorHint="#8A9398"
+        android:hint="  Nombre" />
+
+
+    <Button
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100px"
+        android:background="#FFB842"
+        android:onClick="crearCuenta"
+        android:text="Crear cuenta"
+        android:textColor="#FFF" />
+
+</LinearLayout>
